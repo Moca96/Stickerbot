@@ -25,7 +25,6 @@ if is_env:
     some_sticker_bot = Client(
         api_id=tg_app_id,
         api_hash=tg_api_key,
-        session_name=":memory:",
         bot_token=bot_api_key,
         workers=200
     )
