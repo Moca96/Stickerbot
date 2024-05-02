@@ -19,15 +19,18 @@
         },
         "TG_BOT_TOKEN": {
             "description": "Your bot token, as a string.",
-            "required": true
+            "required": true ,
+            "value": "r"
         },
         "TG_APP_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "required": true
+            "required": true ,
+            "value": "r"
         },
         "TG_API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "required": true
+            "required": true ,
+            "value": "r"
         }
     },
     "buildpacks": [{
